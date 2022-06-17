@@ -1,0 +1,43 @@
+.diagram-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diagram-item__inner {
+    height: 100%;
+    width: 1rem;
+    border: 1px solid #A66D21;
+    border-radius: 12px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.diagram-item__fill {
+    background-color: #67B2EC;
+
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+
+.diagram-item__label {
+    font-weight: 400;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: .5rem;
+    color: #A66D21;
+}
+
+@media (max-width: 576px) {
+    .diagram-item__inner {
+        width: .5rem;
+    }
+
+    .diagram-item__label {
+        font-size: 0.5rem;
+    }
+}

@@ -1,0 +1,14 @@
+.diagram {
+    padding: 3rem;
+    background-color: #FFBD65;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+
+@media (max-width: 576px) {
+    .diagram {
+        padding: 1rem;
+    }
+}
