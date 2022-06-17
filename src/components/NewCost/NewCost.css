@@ -1,0 +1,39 @@
+.new-cost {
+    background-color: #E9EDF3;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.new-cost button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #67B3EC;
+    color: #fefae1;
+    border-radius: 4px;
+    margin-right: 3px;
+    width: 100%;
+}
+
+.new-cost button:hover,
+.new-cost button:active {
+    background-color: #2a5c84b2;
+    border-color: #2a5c84b2;
+}
+
+.new-cost__reset button {
+    border: 1px solid #67B3EC;
+    background-color: transparent;
+    color: #263038;
+}
+
+.new-cost__close button{
+    background-color: #FFBD65;
+    color: #263038;
+}
+
+.new-cost__control.invalid-input input {
+    border-color: red;
+}
