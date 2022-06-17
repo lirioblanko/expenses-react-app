@@ -1,0 +1,36 @@
+.cost-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #67B3E9;
+}
+
+.cost-item:last-child {
+    margin-bottom: 0;
+}
+
+.cost-item__title {
+    font-size: 1rem;
+    margin: 0 1rem;
+    color: #fff;
+}
+
+.cost-item__price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+
+    .cost-item__title {
+        font-size: 1.25rem;
+    }
+
+    .cost-item__price {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,18 @@
+.cost-date {
+    display: flex;
+    flex-direction: column;
+    color: #fefae1;
+    align-items: start;
+    text-align: center;
+    justify-content: center;
+}
+
+.cost-date__day {
+    font-size: 1rem;
+    padding-bottom: .25rem;
+}
+
+.cost-date__year {
+    font-size: 1rem;
+    color: #fff;
+}
